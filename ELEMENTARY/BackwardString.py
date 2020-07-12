@@ -11,6 +11,7 @@ def backward_string(val: str) -> str:
     # for 변수 in reversed(range(횟수)):
     # for 변수 in reversed(range(시작, 끝)):
     # for 변수 in reversed(range(시작, 끝, 증가폭)):
+    # (ex1) for i in reversed(range(10)) - 9부터 0까지 10번 반복
 
     # # (cf) 일반적인 for문
     # (ex1) for i in range(0, 10): - 1 ~ 10
