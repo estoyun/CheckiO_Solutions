@@ -9,16 +9,16 @@ The set isn’t sorted and consists of unique numbers.
 
 def nearest_value(values: set, one: int) -> int:
     
-    # 1. 값을 조금씩 증감해가며 노가다로 찾기
-    if one in values:
-        return one
-    n = 1
-    while True:
-        if (one - n) in values:
-            return one - n
-        elif (one + n) in values:
-            return one + n
-        n += 1
+    # # 1. 값을 조금씩 증감해가며 노가다로 찾기
+    # if one in values:
+    #     return one
+    # n = 1
+    # while True:
+    #     if (one - n) in values:
+    #         return one - n
+    #     elif (one + n) in values:
+    #         return one + n
+    #     n += 1
 
 if __name__ == '__main__':
     print("Example:")
