@@ -20,6 +20,12 @@ def nearest_value(values: set, one: int) -> int:
     #         return one + n
     #     n += 1
 
+    # 2. one-liner
+    # (abs(n-one), n) for n in values => [(5,4), (2,7), (1,10), (2,11), (3,12), (8,17)]
+    # min -> gets the first (lexicographically) tuple => (1,10)
+    # [1] -> (1,10) => 10
+    return min((abs(n-one), n) for n in values)[1]
+
 if __name__ == '__main__':
     print("Example:")
     print(nearest_value({4, 7, 10, 11, 12, 17}, 9))
