@@ -6,7 +6,7 @@ def split_pairs(a):
     # a += '_'*(len(a)%2)
     # return [a[i:i+2] for i in range(0,len(a),2)]
 
-    # # 2. recursive
+    # # 2. recursive(재귀)
     # # a[100:]처럼 list index 넘어가면 []가 됨
 
     # l = len(a)
