@@ -22,7 +22,7 @@ def nearest_value(values: set, one: int) -> int:
 
     # 2. one-liner
     # (abs(n-one), n) for n in values => [(5,4), (2,7), (1,10), (2,11), (3,12), (8,17)]
-    # min -> gets the first (lexicographically) tuple => (1,10)
+    # min -> gets the first (lexicographically, 사전 순으로) tuple => (1,10)
     # [1] -> (1,10) => 10
     return min((abs(n-one), n) for n in values)[1]
 
