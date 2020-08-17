@@ -1,7 +1,7 @@
 from typing import Iterable
 
 # Iterable 객체 - 반복 가능한 객체 (for문의 in 키워드 뒤에 올 수 있는 모든 값)
-# 대표적으로 iterable한 타입 - list, dict, set, str, bytes, tuple, range
+# 대표적으로 terable한 타입 - list, dict, set, str, bytes, tuple, range
 def remove_all_before(items: list, border: int) -> Iterable:
     # your code here
 
