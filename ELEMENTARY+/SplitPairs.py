@@ -1,7 +1,7 @@
 def split_pairs(a):
     # your code here
 
-    # # 1. 일반 답
+    # # 1. 일반적인 답
     # # 문자열의 길이가 홀수인 경우만 '_' 추가
     # a += '_'*(len(a)%2)
     # return [a[i:i+2] for i in range(0,len(a),2)]
