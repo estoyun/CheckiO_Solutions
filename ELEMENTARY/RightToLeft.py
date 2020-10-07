@@ -3,7 +3,7 @@ def left_join(phrases: tuple) -> str:
         Join strings and replace "right" to "left"
     """
     # string.join(iterable) -> iterable : member를 하나씩 변환할 수 있는 object(list, str, tuple)
-    # replace(old, new, [count]) -> count는 왼쪽부터 바꿀 횟수
+    # replace(old, new, [count]) -> count는 왼쪽부터 바꿀 횟수, 생략가능
     return (",".join(phrases)).replace("right","left")
 
 if __name__ == '__main__':
